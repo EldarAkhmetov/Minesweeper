@@ -1,0 +1,45 @@
+.Number {
+    width: 21px;
+    height: 40px;
+    text-align: center;
+    background: url('../minesweeper-sprites.png');
+    display: inline-block;
+    background-position: 21px 0;
+    background-size: 220px 150px;
+}
+
+.Number.one {
+    background-position: 0px 0;
+}
+
+.Number.two {
+    background-position: -22px 0;
+}
+
+.Number.three {
+    background-position: -44px 0;
+}
+
+.Number.four {
+    background-position: -66px 0;
+}
+
+.Number.five {
+    background-position: -88px 0;
+}
+
+.Number.six {
+    background-position: -110px 0;
+}
+
+.Number.seven {
+    background-position: -132px 0;
+}
+
+.Number.eight {
+    background-position: -155px 0;
+}
+
+.Number.nine {
+    background-position: -177px 0;
+}

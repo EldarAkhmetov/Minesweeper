@@ -1,0 +1,12 @@
+.Minesfield {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 416px;
+    height: 416px;
+    background-color: lightgray;
+    z-index: 5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }

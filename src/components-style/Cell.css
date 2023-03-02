@@ -1,0 +1,81 @@
+.Cell {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background: url('../minesweeper-sprites.png');
+    background-position: 0px -90px;
+    background-size: 220px 146px;
+}
+
+.Cell.hide {
+    background-position: 0px -90px;
+}
+
+.Cell.zero {
+    background-position: -28px -90px;
+}
+
+.Cell.one {
+    background-position: 1px -118px;
+}
+
+.Cell.two {
+    background-position: -27px -118px;
+}
+
+.Cell.three {
+    background-position: -53px -118px;
+}
+
+.Cell.four {
+    background-position: -81px -118px;
+}
+
+.Cell.five {
+    background-position: -108px -118px;
+}
+
+.Cell.six {
+    background-position: -135px -118px;
+}
+
+.Cell.seven {
+    background-position: -162px -118px;
+}
+
+.Cell.eight {
+    background-position: -189px -118px;
+}
+
+.Cell.flag {
+    background-position: -54px -90px;
+}
+
+.Cell.question {
+    background-position: -81px -90px;
+}
+
+.Cell.mine {
+    background-position: -135px -90px;
+}
+
+.Cell.nine {
+    background-position: -135px -90px;
+}
+
+.Cell.mine-blow {
+    background-position: -162px -90px;
+}
+
+.Cell.mine-incorrect {
+    background-position: -190px -90px;
+}
+
+
+.Cell:active {
+    background-position: -28px -90px;
+}
+
+.Cell.question:active {
+    background-position: -109px -90px;
+}
