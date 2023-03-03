@@ -24,8 +24,10 @@ export const gameStatuses = {
 export const MINE = -1;
 
 export const Mask = {
-    transparent: 'yransparent',
+    transparent: 'transparent',
     hide: 'hide',
     flag: 'flag',
-    question: 'question'
+    question: 'question',
+    mineBlow: 'mine-blow',
+    mineIncorrect: 'mine-incorrect'
 }

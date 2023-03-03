@@ -2,75 +2,75 @@
     width: 25px;
     height: 25px;
     text-align: center;
+    border: none;
     background: url('../minesweeper-sprites.png');
     background-position: 0px -90px;
     background-size: 220px 146px;
 }
 
-.Cell.hide {
-    background-position: 0px -90px;
-}
-
-.Cell.zero {
+.Cell.zero, .Cell.zero:disabled {
     background-position: -28px -90px;
 }
 
-.Cell.one {
+.Cell.one, .Cell.one:disabled {
     background-position: 1px -118px;
 }
 
-.Cell.two {
+.Cell.two, .Cell.two:disabled {
     background-position: -27px -118px;
 }
 
-.Cell.three {
+.Cell.three, .Cell.three:disabled {
     background-position: -53px -118px;
 }
 
-.Cell.four {
+.Cell.four, .Cell.four:disabled {
     background-position: -81px -118px;
 }
 
-.Cell.five {
+.Cell.five, .Cell.five:disabled {
     background-position: -108px -118px;
 }
 
-.Cell.six {
+.Cell.six, .Cell.six:disabled {
     background-position: -135px -118px;
 }
 
-.Cell.seven {
+.Cell.seven, .Cell.seven:disabled {
     background-position: -162px -118px;
 }
 
-.Cell.eight {
+.Cell.eight, .Cell.eight:disabled {
     background-position: -189px -118px;
 }
 
-.Cell.flag {
+.Cell.mine, .Cell.mine:disabled {
+    background-position: -135px -90px;
+}
+
+.Cell.flag, .Cell.flag:disabled {
     background-position: -54px -90px;
 }
 
-.Cell.question {
+.Cell.question, .Cell.question:disabled {
     background-position: -81px -90px;
 }
 
-.Cell.mine {
+.Cell.nine, .Cell.nine:disabled {
     background-position: -135px -90px;
 }
 
-.Cell.nine {
-    background-position: -135px -90px;
-}
-
-.Cell.mine-blow {
+.Cell.mine-blow, .Cell.mine-blow:disabled {
     background-position: -162px -90px;
 }
 
-.Cell.mine-incorrect {
+.Cell.mine-incorrect, .Cell.mine-incorrect:disabled {
     background-position: -190px -90px;
 }
 
+.Cell.hide, .Cell.hide:disabled {
+    background-position: 0px -90px;
+}
 
 .Cell:active {
     background-position: -28px -90px;

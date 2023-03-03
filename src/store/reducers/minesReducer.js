@@ -6,6 +6,7 @@ const SET_MASK_FIELD = 'SET_MASK_FIELD';
 const INCREMENT_MARKED = 'INCREMENT_MARKED';
 const DECREMENT_MARKED = 'DECREMENT_MARKED';
 const RESET_MARKED = 'RESET_MARKED';
+const SET_ALL_MARKED = 'SET_ALL_MARKED';
 
 const defaultState = {
     field: new Array(minesfieldHeight * minesfieldWidth).fill(0),
@@ -45,6 +46,11 @@ export default function minesReducer(state = defaultState, action) {
                 ...state,
                 markedMines: 0
             };
+        case SET_ALL_MARKED:
+            return {
+                ...state,
+                markedMines: state.minesNumber
+            };
         default:
             return state;
     }
@@ -74,4 +80,8 @@ export const decrementMarked = () => ({
 
 export const resetMarked = () => ({
     type: RESET_MARKED
+});
+
+export const setAllMarked = () => ({
+    type: SET_ALL_MARKED
 });
