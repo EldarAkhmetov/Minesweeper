@@ -17,14 +17,21 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "lint": "eslint .",
+    "lint:fix": "npm run lint -- --fix"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+      "react-app"
+    ],
+    "rules": {
+      "no-console": "warn",
+      "quotes": ["warn", "single"],
+      "prefer-const": "warn",
+      "indent": ["warn", 2],
+      "max-len": ["warn", {"code": 120}],
+      "semi": ["warn", "always"]
+    }
   },
   "browserslist": {
     "production": [

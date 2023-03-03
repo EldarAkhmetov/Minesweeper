@@ -17,7 +17,7 @@ function App() {
     const interval = setInterval(() => {
       isRunning && dispatch(addOneSecond());
     }, 1000);
-    return () => { clearInterval(interval); }
+    return () => { clearInterval(interval); };
   }, [dispatch, isRunning]);
   return (
     <div className="App">
