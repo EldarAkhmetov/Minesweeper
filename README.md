@@ -1,5 +1,5 @@
 # Minesweeper
-https://minesweeper-woad.vercel.app/
+https://minesweeper-woad.vercel.app/ - ссылка на выложенное приложение
 
 Чтобы запустить проект со своего компьютера нужно:
 1. Склонировать проект себе на компьютер через git clone
